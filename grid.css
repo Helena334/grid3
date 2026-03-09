@@ -1,9 +1,9 @@
 body{
-    display: grid
-    grid-template-areas
-    "cabeca cabeca cabeca"
-    "braco corpo corpo"
-    "perna perna perna"
+    display: grid;
+    grid-template-areas:
+        "cabeca cabeca cabeca"
+        "braco corpo corpo"
+        "perna perna perna";
     grid-template-rows: 200px 600px 150px;
     grid-template-columns: 200px auto auto;
 }
@@ -34,7 +34,7 @@ footer{
         "cabeca"
         "braco"
         "corpo"
-        "perna"
+        "perna";
         grid-template-columns: auto;
         grid-template-rows: 150px 50px 500px 200px;
     }

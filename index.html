@@ -1,69 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="grid.css">
-    <title>Document</title>
-
-
-    
+    <title>fofo</title>
 </head>
 <body>
     <header>
-
+        <p>coelho</p>
     </header>
+
     <aside>
-bfbfbb
+        <p>morreu</p>
     </aside>
-    <main> 
-<section class="mae">
-    <div class="card">
-    <img src="imagem.jpg" class="img_card" alt="">
-        <p class="texto_card">texto card hiouhohuoi</p>
-        <p class="preco_card">R$ 50,00</p>    
-        <button  class="button">adicionar ao carrinho</button>
+
+    <main>
+        <p>atropelado</p>
+        <section class="quiz-container">
+
+    <h1>Questionário de Consumo e Impacto Ambiental</h1>
+    <p>Responda as perguntas abaixo e descubra ONGs recomendadas para o seu perfil.</p>
+
+    <!-- PERGUNTAS -->
+    <div id="quiz">
+
+        <!-- LUZ -->
+        <h2>⚡ Energia Elétrica (Luz)</h2>
+
+        <div class="pergunta">
+            <p>1. Qual foi o valor da última conta de luz?</p>
+            <label><input type="radio" name="q1" value="a"> Menos de R$100</label><br>
+            <label><input type="radio" name="q1" value="b"> R$100 - R$200</label><br>
+            <label><input type="radio" name="q1" value="c"> R$200 - R$400</label><br>
+            <label><input type="radio" name="q1" value="d"> Mais de R$400</label>
         </div>
 
-        <div class="card">
-    <img src="imagem.jpg" class="img_card" alt="">
-        <p class="texto_card">texto card hiouhohuoi</p>
-        <p class="preco_card">R$ 50,00</p>
-        <button  class="button">adicionar ao carrinho</button>
+        <div class="pergunta">
+            <p>2. Quantos eletrodomésticos ficam ligados o dia todo?</p>
+            <label><input type="radio" name="q2" value="a"> Nenhum</label><br>
+            <label><input type="radio" name="q2" value="b"> 1 a 2</label><br>
+            <label><input type="radio" name="q2" value="c"> 3 a 4</label><br>
+            <label><input type="radio" name="q2" value="d"> Mais de 4</label>
         </div>
 
-         <div class="card">
-    <img src="imagem.jpg" class="img_card" alt="">
-        <p class="texto_card">texto card hiouhohuoi</p>
-        <p class="preco_card">R$ 50,00</p>
-        <button  class="button">adicionar ao carrinho</button>
+        <div class="pergunta">
+            <p>3. O chuveiro elétrico é usado no modo "inverno"?</p>
+            <label><input type="radio" name="q3" value="a"> Nunca</label><br>
+            <label><input type="radio" name="q3" value="b"> Raramente</label><br>
+            <label><input type="radio" name="q3" value="c"> Às vezes</label><br>
+            <label><input type="radio" name="q3" value="d"> Sempre</label>
         </div>
 
-         <div class="card">
-    <img src="imagem.jpg" class="img_card" alt="">
-         <p class="texto_card">texto card hiouhohuoi</p>
-         <p class="preco_card">R$ 50,00</p>
-         <button  class="button">adicionar ao carrinho</button>
-         </div>
+        <!-- ÁGUA -->
+        <h2>💧 Água e Saneamento</h2>
 
-         <div class="card">
-    <img src="imagem.jpg" class="img_card" alt="">
-         <p class="texto_card">texto card hiouhohuoi</p>
-         <p class="preco_card">R$ 50,00</p>
-         <button  class="button">adicionar ao carrinho</button>
-         </div>
+        <div class="pergunta">
+            <p>4. Qual é o custo médio mensal da água?</p>
+            <label><input type="radio" name="q4" value="a"> Menos de R$50</label><br>
+            <label><input type="radio" name="q4" value="b"> R$50 - R$100</label><br>
+            <label><input type="radio" name="q4" value="c"> R$100 - R$200</label><br>
+            <label><input type="radio" name="q4" value="d"> Mais de R$200</label>
+        </div>
 
-         <div class="card">
-    <img src="imagem.jpg" class="img_card" alt="">
-         <p class="texto_card">texto card hiouhohuoi</p>
-         <p class="preco_card">R$ 50,00</p>
-         <button class="button">adicionar ao carrinho</button>
-         </div>
-    </section>
+        <div class="pergunta">
+            <p>5. Existe vazamento visível em casa?</p>
+            <label><input type="radio" name="q5" value="a"> Não</label><br>
+            <label><input type="radio" name="q5" value="b"> Pequeno</label><br>
+            <label><input type="radio" name="q5" value="c"> Médio</label><br>
+            <label><input type="radio" name="q5" value="d"> Grande</label>
+        </div>
+
+        <div class="pergunta">
+            <p>6. Quantas vezes a máquina de lavar é usada por semana?</p>
+            <label><input type="radio" name="q6" value="a"> 1 vez</label><br>
+            <label><input type="radio" name="q6" value="b"> 2-3 vezes</label><br>
+            <label><input type="radio" name="q6" value="c"> 4-5 vezes</label><br>
+            <label><input type="radio" name="q6" value="d"> Mais de 5</label>
+        </div>
+
+        <!-- GÁS -->
+        <h2>🔥 Gás</h2>
+
+        <div class="pergunta">
+            <p>7. Quanto tempo dura um botijão de gás?</p>
+            <label><input type="radio" name="q7" value="a"> Mais de 2 meses</label><br>
+            <label><input type="radio" name="q7" value="b"> 1-2 meses</label><br>
+            <label><input type="radio" name="q7" value="c"> 2-3 semanas</label><br>
+            <label><input type="radio" name="q7" value="d"> Menos de 2 semanas</label>
+        </div>
+
+        <div class="pergunta">
+            <p>8. O gás é usado apenas no fogão?</p>
+            <label><input type="radio" name="q8" value="a"> Sim</label><br>
+            <label><input type="radio" name="q8" value="b"> Quase sempre</label><br>
+            <label><input type="radio" name="q8" value="c"> Às vezes</label><br>
+            <label><input type="radio" name="q8" value="d"> Não</label>
+        </div>
+
+        <div class="pergunta">
+            <p>9. O forno é usado com frequência?</p>
+            <label><input type="radio" name="q9" value="a"> Nunca</label><br>
+            <label><input type="radio" name="q9" value="b"> Raramente</label><br>
+            <label><input type="radio" name="q9" value="c"> Às vezes</label><br>
+            <label><input type="radio" name="q9" value="d"> Sempre</label>
+        </div>
+
+        <!-- ALIMENTAÇÃO -->
+        <h2>🍎 Alimentação</h2>
+
+        <div class="pergunta">
+            <p>10. Quanto do orçamento vai para mercado?</p>
+            <label><input type="radio" name="q10" value="a"> Pouco</label><br>
+            <label><input type="radio" name="q10" value="b"> Médio</label><br>
+            <label><input type="radio" name="q10" value="c"> Alto</label><br>
+            <label><input type="radio" name="q10" value="d"> Muito alto</label>
+        </div>
+
+        <div class="pergunta">
+            <p>11. Faz lista de compras?</p>
+            <label><input type="radio" name="q11" value="a"> Sempre</label><br>
+            <label><input type="radio" name="q11" value="b"> Quase sempre</label><br>
+            <label><input type="radio" name="q11" value="c"> Raramente</label><br>
+            <label><input type="radio" name="q11" value="d"> Nunca</label>
+        </div>
+
+        <div class="pergunta">
+            <p>12. Compra ultraprocessados?</p>
+            <label><input type="radio" name="q12" value="a"> Nunca</label><br>
+            <label><input type="radio" name="q12" value="b"> Raramente</label><br>
+            <label><input type="radio" name="q12" value="c"> Frequentemente</label><br>
+            <label><input type="radio" name="q12" value="d"> Sempre</label>
+        </div>
+
+        <!-- TRANSPORTE -->
+        <h2>🚗 Transporte</h2>
+
+        <div class="pergunta">
+            <p>13. Quanto gasta com combustível?</p>
+            <label><input type="radio" name="q13" value="a"> Baixo</label><br>
+            <label><input type="radio" name="q13" value="b"> Médio</label><br>
+            <label><input type="radio" name="q13" value="c"> Alto</label><br>
+            <label><input type="radio" name="q13" value="d"> Muito alto</label>
+        </div>
+
+        <div class="pergunta">
+            <p>14. Usa transporte público?</p>
+            <label><input type="radio" name="q14" value="a"> Sempre</label><br>
+            <label><input type="radio" name="q14" value="b"> Frequentemente</label><br>
+            <label><input type="radio" name="q14" value="c"> Raramente</label><br>
+            <label><input type="radio" name="q14" value="d"> Nunca</label>
+        </div>
+
+        <div class="pergunta">
+            <p>15. Faz manutenção preventiva no carro?</p>
+            <label><input type="radio" name="q15" value="a"> Sempre</label><br>
+            <label><input type="radio" name="q15" value="b"> Às vezes</label><br>
+            <label><input type="radio" name="q15" value="c"> Raramente</label><br>
+            <label><input type="radio" name="q15" value="d"> Nunca</label>
+        </div>
+
+        <button onclick="mostrarResultado()">Ver Resultado</button>
+    </div>
+</section>
+
+<section id="resultado" style="display:none;" class="resultado-container">
+
+    <h1>Resultado do seu perfil</h1>
+
+    <div id="ongs"></div>
+
+    <h2>Planos de contribuição</h2>
+
+    <div class="planos">
+        <p>🌱 Semente - R$ 10/mês</p>
+        <p>🌿 Árvore - R$ 25/mês</p>
+        <p>🌳 Floresta - R$ 50/mês</p>
+    </div>
+
+    <p class="aviso">
+        Este projeto foi desenvolvido para fins educacionais.
+        As contribuições são uma simulação de funcionamento de uma plataforma ambiental.
+    </p>
+
+    <button onclick="refazer()">Refazer Quiz</button>
+
+</section>
+        
+
+        
+
+        
     </main>
+
     <footer>
-        footer 
+        <p> hahahaha</p>
     </footer>
+
+    <script src="quiz.js"></script>
+
+    
 </body>
 </html>
-

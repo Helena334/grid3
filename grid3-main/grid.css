@@ -1,0 +1,235 @@
+body {
+     display: grid;
+     grid-template-areas: "cabeca cabeca cabeca"
+     "braco corpo corpo"
+     "perna perna perna";
+    grid-template-rows: 200px auto 150px;
+    grid-template-columns: 200px auto auto;
+}
+header{
+    grid-area: cabeca;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-container {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-areas: "logo titulo nada";
+}
+
+.header-text {
+    grid-area: titulo;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+
+header .logo {
+    height: 180px;
+    width: auto;
+}
+
+
+header h1 {
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+header h2 {
+    font-size: x-large;
+    margin: 85px;
+}
+
+
+aside{
+    grid-area: braco;
+    background-color: rgb(59, 224, 26);
+}
+main{
+    grid-area: corpo;
+    background-color: rgba(232, 255, 242, 0.945);
+}
+footer{
+    grid-area: perna;
+    background-color: rgb(67, 160, 24);
+
+}
+
+.img_card{
+    width: 300px;
+    height: auto;
+}
+.texto_card{
+    color: rgb(34, 96, 178);
+    font-size: x-large;
+}
+.preco_card{
+    color: darkred;
+    font-size: xx-large;
+}
+
+.mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-color: darkred 2px solid;
+    background-color: rgb(251, 251, 255);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+@media only screen and(max-width){
+    body{
+        grid-area: "cabeca"
+                    "corpo"
+                    "perna";
+        grid-template-columns: auto;   
+        grid-template-rows: 150px 50px 500px 200px;         
+    }
+}
+
+@media only screen and  ( max-width: 800px) {
+    body {
+        grid-template-areas: "cabeca"
+                             "corpo"
+                             "perna";
+        grid-template-columns: auto;
+        grid-template-rows: 200px auto 200px;
+    }
+    aside {
+        display: none;
+    }
+}
+
+.quiz-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.pergunta {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f4f4f4;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.resultado-container {
+    padding: 20px;
+    font-family: Arial;
+}
+
+.planos {
+    margin-top: 20px;
+}
+
+.aviso {
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.quiz-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.pergunta {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f4f4f4;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.pergunta p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #1b5e20;
+    transform: scale(1.03);
+}
+
+.resultado-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.planos {
+    margin-top: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.planos p {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.aviso {
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+/* responsivo */
+@media (max-width: 600px) {
+    .quiz-container, .resultado-container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

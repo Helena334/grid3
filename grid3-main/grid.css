@@ -8,9 +8,29 @@ body {
 }
 header{
     grid-area: cabeca;
-    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center; 
+    padding: 15px 30px;
+    background-color: #ffffff; 
+    position: relative; 
+    height: 60px
 }
+
+.titulo-eco {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2e7d32;
+    
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
 
 #header-container {
     display: grid;
@@ -28,19 +48,8 @@ header{
 header .logo {
     height: 180px;
     width: auto;
+
 }
-
-
-header h1 {
-    font-size: xx-large;
-    margin-top: 50px;
-}
-
-header h2 {
-    font-size: x-large;
-    margin: 85px;
-}
-
 
 aside{
     grid-area: braco;
@@ -232,4 +241,12 @@ button:hover {
     button {
         width: 100%;
     }
+}
+
+
+.marca-topo {
+    display: flex;
+    align-items: center; 
+    gap: 10px;          
+    padding: 15px;
 }

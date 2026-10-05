@@ -20,15 +20,14 @@ header{
 
 .titulo-eco {
     font-family: 'Arial', sans-serif;
-    font-size: 32px;
+    font-size: 50px;
     font-weight: bold;
     color: #2e7d32;
-    
-    
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin: 0;
+    margin: 50;
+    margin-top: 50px;
 }
 
 
@@ -47,21 +46,39 @@ header{
 
 header .logo {
     height: 180px;
-    width: auto;
+    width: 180px;
+    margin-top: auto;
+
+}
+
+footer .parana {
+    height: 180px;
+    width: 180px;
+    margin-top: 20px;
+    
+
+}
+
+
+footer .tarquinio {
+    height: 180px;
+    width: 180px;
+    margin-top: 20px;
 
 }
 
 aside{
     grid-area: braco;
-    background-color: rgb(59, 224, 26);
+    background-color: rgb(230, 255, 190);
 }
 main{
     grid-area: corpo;
-    background-color: rgba(232, 255, 242, 0.945);
+    background-color: rgba(156, 199, 255, 0.945);
 }
 footer{
     grid-area: perna;
     background-color: rgb(67, 160, 24);
+    height: 320px;
 
 }
 

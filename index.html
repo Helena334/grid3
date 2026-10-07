@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="grid.css">
-    <title>fofo</title>
+    <meta charset="UTF-8">
+
+    <title>EcoMétricas</title>
+    <link rel="stylesheet" href="style.css">
+
+    
 </head>
 <body>
     <header>
-        <p>coelho</p>
+        <img src="img/logo.png" class="logo">
+        <span class="titulo-eco">EcoMétricas</span>
+
     </header>
 
-    <aside>
-        <p>morreu</p>
+    <aside class="agente">
+        <p>Fale conosco:</p>
+        <p>ecometricas@gmail.com</p>
+        <p>img: eco_metricas</p>
     </aside>
 
     <main>
-        <p>atropelado</p>
         <section class="quiz-container">
 
     <h1>Questionário de Consumo e Impacto Ambiental</h1>
-    <p>Responda as perguntas abaixo e descubra ONGs recomendadas para o seu perfil.</p>
+    
 
     <!-- PERGUNTAS -->
     <div id="quiz">
@@ -172,16 +180,21 @@
 
     <h2>Planos de contribuição</h2>
 
-    <div class="planos">
-        <p>🌱 Semente - R$ 10/mês</p>
-        <p>🌿 Árvore - R$ 25/mês</p>
-        <p>🌳 Floresta - R$ 50/mês</p>
-    </div>
 
-    <p class="aviso">
-        Este projeto foi desenvolvido para fins educacionais.
-        As contribuições são uma simulação de funcionamento de uma plataforma ambiental.
-    </p>
+    <button class="botao1">
+     <p>🌱 Semente - R$ 10/mês</p>
+    </button>
+
+    <button class="botao2">
+     <p>🌿 Árvore - R$ 25/mês</p>
+    </button>
+
+    <button class="botao3">
+     <p>🌳 Floresta - R$ 50/mês</p>
+    </button>
+
+
+
 
     <button onclick="refazer()">Refazer Quiz</button>
 
@@ -194,7 +207,9 @@
     </main>
 
     <footer>
-        <p> hahahaha</p>
+        <img src="img/parana.png" class="parana">
+        <img src="img/tarquinio.png" class="tarquinio">
+
     </footer>
 
     <script src="quiz.js"></script>

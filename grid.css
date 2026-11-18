@@ -45,9 +45,9 @@ header{
 }
 
 header .logo {
-    height: 180px;
-    width: 180px;
-    margin-top: auto;
+    height: 200px;
+    width: 200px;
+    margin-top: 90px;
 
 }
 
@@ -58,6 +58,15 @@ footer .parana {
     
 
 }
+
+footer .participante{
+    color: rgb(0, 0, 0); 
+    text-align: center;
+
+    width: 900px; 
+    margin-top: -200px;
+} 
+
 
 
 footer .tarquinio {
@@ -77,7 +86,7 @@ main{
 }
 footer{
     grid-area: perna;
-    background-color: rgb(67, 160, 24);
+    background-color: rgb(171, 238, 140);
     height: 320px;
 
 }
@@ -162,23 +171,7 @@ button {
 }
 
 .planos {
-    margin-top: 500px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.botao1 {
-    background-color: #489dd5;
-    font-size: 25px;
-}
-
-.botao2 {
-    background-color: #489dd5;
-    font-size: 27px;
-}
-
-.botao3 {
-    background-color: #489dd5;
-    font-size: 25px;
+    margin-top: 20px;
 }
 
 .aviso {
@@ -282,8 +275,4 @@ button:hover {
     align-items: center; 
     gap: 10px;          
     padding: 15px;
-}
-
-.agente{
-    font-size: 17px;
 }
